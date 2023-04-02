@@ -1,0 +1,64 @@
+div.v-layoutCentering{
+    align-items: center;
+    justify-content: center;
+}
+/*
+div.flex{
+    display:flex;
+}*/
+div.flexdiv{
+    /*vuetifyで.flexが使われてることが判明......*/
+    display:flex;
+}
+div.flexdiv-wrap{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+span.link,svg.link path,i.link{
+    text-decoration:none !important;
+    color:#337ab7 !important;
+
+    &:hover {
+        text-decoration:underline !important;
+        color:#23527c !important;
+        cursor: pointer !important;
+    }
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    line-height: 1.4;
+
+    border:0;
+    padding:0;
+    font-size: 14px;
+    color:#333;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
+}
+
+
+div.v-layoutCentering{
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.container{padding:0;}
+
+a{
+    text-decoration:none !important;
+    color:#337ab7 !important;
+
+    &:hover {
+        text-decoration:underline !important;
+        color:#23527c !important;
+        cursor: pointer !important;
+    }
+}
